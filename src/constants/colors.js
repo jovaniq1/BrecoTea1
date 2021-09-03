@@ -1,0 +1,15 @@
+export default {
+  primary: '#202c41',
+  border: '#c6c6c6',
+  white: '#fff',
+  gray: '#9ca5ab',
+  error: '#b55464',
+  brand: '#C2DA6F',
+  icon: '#5f5f61',
+  background: '#F8F8F8',
+  greenYellowLight: '#F0F7D7',
+  greenYellow: '#C2DA6F',
+  darkGreen: '#505C2A',
+  grey: '#707071',
+  black: '#050505',
+};
