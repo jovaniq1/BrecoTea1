@@ -4,11 +4,11 @@ import {
   View,
   StyleSheet,
   Dimensions,
-  Button,
   ScrollView,
   Image,
 } from 'react-native';
 import colors from '../constants/colors';
+import Button from '../components/Btn';
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
@@ -34,7 +34,11 @@ export const Scan = () => {
           Scan your code at the register to pay and earn points toward your next
           reward.
         </Text>
-        <Button style={styles.button} title="Add funds" onPress={onPress} />
+        <Button style={styles.button}
+        text='Add funds'
+        onPress={onPress}
+        size='small'
+      />
       </ScrollView>
     </View>
   );
